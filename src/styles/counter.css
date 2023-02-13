@@ -1,0 +1,42 @@
+.counter_wrapper{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.counter_item{
+    width: 20%;
+    text-align: center;
+}
+
+.counter_number,.counter_item{
+    background: var(--counter-color);
+    background-size: 100% 100%;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+.counter_number{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.counter_item{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .counter_wrapper{
+        margin: 0 auto;
+       flex-direction: column;
+        justify-content:center ;
+        gap:2rem;
+        }
+    .counter_item{
+        width: 50%;
+       
+    }
+}

@@ -1,0 +1,101 @@
+.contact-section {
+    max-width: 1150px;
+    margin: auto;
+    box-shadow: 0px 0px 29px 20px #e4e4e4;
+    border-radius: 8px;
+    padding: 50px 10px;
+    color: #fff;
+  }
+  .contact-section  .contact-wapper{
+    display: grid;
+    grid-template-columns: 59% 39%;
+    grid-column-gap: 25px;
+    margin-top: 30px;
+  }
+  .contact-section .input-group {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 15px;
+    grid-row-gap: 25px;
+  }
+  .contact-section textarea {
+    min-height: 150px;
+    width: 100%;
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 25px;
+  }
+  .contact-section .input-group label {
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    
+  }
+  .contact-section .input-group input,
+  .contact-section .input-group select {
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    
+  }
+  .contact-section .input-group input,
+  .contact-section .input-group select,
+  .contact-section textarea {
+    border: 1px solid #5ce1e6;
+    font-size: 17px;
+  }
+  
+  .contact-section .input-group  input:focus,
+  .contact-section .input-group  textarea:focus,
+  .contact-section .input-group select:focus {
+    outline: none;
+  }
+  
+  .contact-section  .form-btn {
+    height: 50px;
+    width: 120px;
+    background: var(--primary-color);
+    border: 0px;
+    box-shadow: 0 0 1px #ccc;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0 0 #31708f inset;
+    margin-top: 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .contact-section  .form-btn:hover {
+    box-shadow: 120px 0 0 var(--secondary-color) inset;
+    
+  }
+  
+  .contact-section  .contact-wapper .frequently h3{
+    font-size: 27px;
+  }
+  @media(max-width:576px){
+    .contact-wapper{
+      grid-template-columns:  100%;
+    }
+    .contact-section .input-group {
+      grid-template-columns: 100%;
+    }
+  }
+  @media(max-width:768px){
+    .contact-section  .contact-wapper{
+  
+      grid-template-columns:  100%;
+    }
+    .contact-section  .contact-wapper .frequently{
+      margin-top: 35px;
+    }
+  }
+ 
+  .contactImg{
+
+  }
+
+  .contactImg img{
+    width: 100%;
+  }

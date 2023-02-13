@@ -1,0 +1,71 @@
+
+.footer-section {
+  color: #fff;
+  background-color: black;
+  padding: 50px 0px;
+}
+.footer-section .footer-logo img {
+  width: 100px;
+}
+.footer-section  .footer-wapper {
+  display: grid;
+  grid-template-columns: 45% 25% 25%;
+  gap: 20px;
+}
+.footer-section  .about-company p {
+  font-size: 17px;
+}
+.footer-section  .social-icon{
+  margin-top: 15px;
+}
+.footer-section  .social-icon a{
+  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.footer-section  .quick-link h4,
+.footer-section  .location h4 {
+  color: var(--primary-color);
+  font-size: 25px;
+}
+.footer-section  .quick-link ul,
+.footer-section  .location ul {
+  list-style: none;
+}
+.footer-section  .location ul {
+  margin-top: 10px;
+}
+.footer-section  .quick-link ul li,
+.footer-section  .location ul li {
+  line-height: 35px;
+}
+.footer-section  .quick-link ul li a {
+  transition: all 0.5s ease-in-out;
+}
+
+.footer-section  .location ul li a{
+  display: flex;
+  align-items: center;
+}
+.footer-section  .location ul li a span{
+  margin-left: 10px;
+}
+.footer-section  .location ul li a i{
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.footer-section  .quick-link ul li a:hover, .social-icon a:hover {
+  color: var(--primary-color);
+}
+.footer-section  .location ul li a:hover i{
+color: var(--primary-color);
+}
+.footer-section .copyright{
+  margin-top: 40px;
+}
+@media (max-width: 768px) {
+  .footer-section  .footer-wapper {
+    grid-template-columns: 100%;
+  }
+}

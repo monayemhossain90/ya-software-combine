@@ -1,0 +1,106 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* css variables */
+:root {
+  --primary-color: #CA6BE5;
+  --secondary-color: #379cf6;
+  --heading-color: #fff;
+ 
+  --team-card-bg: #1b2352;
+  --link-color: #fff;
+
+  --card-bg: linear-gradient(
+    45deg,
+    rgba(15, 18, 61, 1) 33%,
+    rgba(15, 18, 61, 1) 52%,
+    rgba(11, 41, 69, 1) 84%
+  );
+  --counter-color: linear-gradient(
+    90deg,
+    #02bba6 30%,
+    rgba(29, 129, 176, 1) 55%,
+    rgba(35, 93, 173, 1) 75%
+  );
+  --body-bg: rgba(6, 11, 26, 1);
+  --newsletter-bg: linear-gradient(
+    90deg,
+    rgba(27, 9, 115, 1) 20%,
+    rgba(23, 9, 96, 1) 38%,
+    rgba(14, 9, 56, 1) 100%
+  );
+  --testimonial-bg: #1a0f4f;
+  --font-name: "Roboto", sans-serif;
+  --small-text-color: rgba(255, 255, 255, 0.774);
+  --icon-bg:#151e4f;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+    background: var(--body-bg);
+    font-family: var(--font-name);
+    
+}
+
+a{
+    text-decoration: none;
+    color:var(--link-color)
+    }
+
+    h1,h2{
+        color:var(--heading-color);
+        font-size: 2rem;
+
+    }
+
+    section{
+      padding:60px 0px;
+    }
+
+.container{
+  width: 90%;
+  padding: 0 15px;
+  margin: auto;
+ 
+  }
+
+  .description{
+    color:var(--small-text-color);
+    line-height: 30px;
+    font-size: 1rem;
+  }
+
+  .subtitle{
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+  
+  }
+
+  .highlight {
+    color: var(--primary-color);
+    }
+
+    
+.primary_btn{
+  padding:0.8rem 1.5rem;
+  outline: none;
+  border:none;
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+  color:#fff;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background:var(--primary-color);
+  cursor: pointer;
+  border:1px solid var(--btn-secondary-bg)
+
+}
